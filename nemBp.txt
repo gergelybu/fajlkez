@@ -1,0 +1,2 @@
+Adatok{nev=Petra, kor=23, cim=Érd, fizetes=525000}
+Adatok{nev=Xénia, kor=24, cim=Göd, fizetes=623000}

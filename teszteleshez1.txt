@@ -1,0 +1,50 @@
+//----------------
+/* ADATSOROK tetszőleges fájlban: */
+//----------------
+NÉV;KOR;CÍM;FIZETÉS
+Petra;23;Érd;525000
+Péter;22;Bp;425000
+Pál;38;Bp;398000
+Xénia;24;Göd;623000
+Pisti;21;Bp;538000
+
+
+//----------------
+/* Próbáld meg az ADATSOROKAT beolvasva
+az adott feladatnál megírt kódodat CSAK
+a TESZTESETEK assert parancsaival kiegészíteni,
+majd futtatni a kódodat!
+*/
+//----------------
+
+
+//----------------
+/* TESZTESETEK az adott feladatra: */
+//----------------
+//1: ki keresi a legtöbbet?
+    private void feladat1() {
+        String nev = "";
+        assert nev.equals("Xénia") : "1. hibás válasz";
+    }
+    
+    //2: mennyi az átlag fizetés?
+    private void feladat2() {
+        double atlag = 0;
+        assert atlag == 501_800: "2. hibás válasz";
+    }
+    
+    //3: mindenki budapesti?
+    private void feladat3() {
+        boolean mind = Math.random()<.5?true : false;
+        int i = 0;
+        assert mind == false: "3. hibás válasz";
+        assert i <= 1 : "3. hibás progTétel"; 
+    }
+    
+    //4: van 20 év feletti budapesti?
+    private void feladat4() {
+        boolean van = false;
+        int i = 0;
+        assert van == true: "4. hibás válasz";
+        assert i <= 1 : "4. hibás progTétel"; 
+    }
